@@ -12,8 +12,6 @@ int main(){
     printf("Digite um número decimal: ");
     scanf("%d", &decimal);
     
-    itoa(decimal, b, 2);
-    
     printf("O número convertido para octal é: %o\n", decimal);
     printf("O número convertido para hexadecimal é: %X", decimal);
 }
