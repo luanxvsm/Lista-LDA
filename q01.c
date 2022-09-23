@@ -21,7 +21,7 @@ int main(){
     soma_dos_quadrados = quadrado + (num2*num2);
     raiz = sqrt(soma_dos_quadrados);
     seno = sin(num1-num2);
-    modulo = 0 % num1;
+    modulo = num1 < 0 ? num1 * -1: num1;
     
     printf("A soma desses números é igual a: %d\n", soma);
     printf("O produto do primeiro número pelo quadrado do segundo é igual a: %d\n", produto);
