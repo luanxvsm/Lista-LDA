@@ -14,6 +14,7 @@ int main(){
     scanf("%d", &num1);
     printf("Digite outro número: ");
     scanf("%d", &num2);
+    
     soma = num1 + num2;
     produto = num1 * (num2*num2);
     quadrado = num1*num1;
@@ -21,6 +22,7 @@ int main(){
     raiz = sqrt(soma_dos_quadrados);
     seno = sin(num1-num2);
     modulo = 0 % num1;
+    
     printf("A soma desses números é igual a: %d\n", soma);
     printf("O produto do primeiro número pelo quadrado do segundo é igual a: %d\n", produto);
     printf("O quadrado do primeiro número é igual a: %d\n", quadrado);
