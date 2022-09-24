@@ -29,7 +29,4 @@ int main(){
     printf("A raiz da soma dos quadrados desses números é igual a: %d\n", raiz);
     printf("O seno da diferença do primeiro número pelo segundo é igual a: %f\n", seno);
     printf("O módulo do primeiro número é igual a: %d\n", modulo);
-
 }
-
-
